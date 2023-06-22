@@ -525,6 +525,11 @@ footer {
     margin-bottom: 48px;
     width: calc ((100% - 2 * 48px) / 3);
 
+    background: #FFFFFF;
+
+
+    border: 1px solid #E7E9FC;
+
 }
 
 .gallery-btn-list {
