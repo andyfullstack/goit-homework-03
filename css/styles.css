@@ -92,7 +92,7 @@ button {
 
 .section {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     /* background-color: rgb(153, 184, 184); */
 }
 
@@ -370,11 +370,13 @@ button {
 
 .project-container {
     display: flex;
+    gap: 24px;
 
 }
 
 .project-item {
 
+    /* padding-bottom: 120px; */
     border: 1px solid #E7E9FC;
     margin-right: 24px;
     width: calc((100% - 2 * 24px) / 3);
@@ -476,6 +478,7 @@ footer {
 }
 
 .footer-link {
+    display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -484,8 +487,8 @@ footer {
     text-transform: uppercase;
     color: #4d5ae5;
 
-    margin-top: 100px;
-
+    /* margin-top: 100px; */
+    margin-bottom: 16px;
 
 }
 
