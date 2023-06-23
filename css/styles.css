@@ -139,6 +139,7 @@ button {
 
 .header-link {
 
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -176,16 +177,15 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
     color: var(--navi-blue-color);
 
     justify-content: space-between;
-    display: flex;
-
     margin: 24px 332px 24px 76px;
-    /* margin: 24px 0; */
     width: 261px;
+
+    display: flex;
+    gap: 40px;
+
 
 }
 
@@ -196,6 +196,7 @@ button {
 
 .address-container {
     display: flex;
+    gap: 40px;
     width: 320px;
     justify-content: space-between;
 }
@@ -206,6 +207,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
+    padding: 24px 0;
 
 }
 
