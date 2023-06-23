@@ -532,34 +532,43 @@ footer {
 
 .buttons {
     display: flex;
+    gap: 24px;
     margin-bottom: 72px;
     justify-content: center;
+
 
 }
 
 .buttons-item {
 
-    margin-right: 24px;
+    /* margin-right: 24px; */
     width: calc ((100% - 4 * 24px) / 5);
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
 
 .cards-list {
 
-    margin-bottom: 48px;
-    width: calc ((100% - 2 * 48px) / 3);
-
+    /* margin-bottom: 48px; */
+    width: calc((100% - 48px) / 3);
     background: #FFFFFF;
-
-
-    border: 1px solid #E7E9FC;
-
 }
+
+.cards-container {
+    /* padding: 32px 16px; */
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
 
 .gallery-btn-list {
 
@@ -583,6 +592,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: 1px solid #E7E9FC;
 
 }
 
@@ -590,6 +600,7 @@ footer {
 .gallery-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 
 }
 
