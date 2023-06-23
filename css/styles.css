@@ -163,7 +163,6 @@ button {
 .header-nav-link:active {
     /* OCEAN */
     color: var(--ocean-color);
-
     text-decoration: underline;
 }
 
@@ -178,14 +177,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navi-blue-color);
-
     justify-content: space-between;
-    margin: 24px 332px 24px 76px;
+    /* margin: 24px 332px 24px 76px; */
     width: 261px;
-
     display: flex;
     gap: 40px;
-
     padding: 24px 0;
 
 
@@ -199,11 +195,12 @@ button {
 .address-container {
     display: flex;
     gap: 40px;
-    width: 360px;
+    /* width: 360px; */
     /* justify-content: space-between; */
 }
 
 .header-address-link {
+
 
     font-style: normal;
     line-height: 1.5;
@@ -230,8 +227,6 @@ button {
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-
-
     background: var(--navi-blue-color);
 
 }
@@ -243,15 +238,10 @@ button {
     margin-left: auto;
     margin-right: auto;
     max-width: 496px;
-
     margin-bottom: 48px;
-
     /* margin-top: 188px; */
-
-
     font-size: 56px;
     line-height: 1.07;
-
     letter-spacing: 0.02em;
     color: var(--white-color);
 
@@ -262,15 +252,10 @@ button {
     padding: 16px 32px;
     /* margin-left: 668px;
     margin-right: 635px; */
-
     margin-right: auto;
     margin-left: auto;
-
     /* margin-bottom: 188px; */
-
     min-width: 169px;
-
-
     display: block;
     /* align-items: center;
     gap: 10px;
@@ -325,7 +310,6 @@ button {
 
 .benefits-title {
     margin-bottom: 8px;
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -377,9 +361,7 @@ button {
 .project-item {
 
     /* padding-bottom: 120px; */
-
     width: calc((100% - 48px) / 3);
-
     /* margin-right: 24px; */
     border: 1px solid #E7E9FC;
 }
@@ -418,7 +400,6 @@ button {
 
 .team-title {
 
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
