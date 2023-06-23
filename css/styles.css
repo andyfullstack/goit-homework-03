@@ -242,7 +242,7 @@ button {
     margin-right: 472px; */
     margin-left: auto;
     margin-right: auto;
-    width: 496px;
+    max-width: 496px;
 
     margin-bottom: 48px;
 
@@ -268,10 +268,10 @@ button {
 
     /* margin-bottom: 188px; */
 
-    /* width: 169px;
-    height: 56px; */
+    min-width: 169px;
 
-    display: flex;
+
+    display: block;
     /* align-items: center;
     gap: 10px;
     flex-direction: row;
@@ -307,17 +307,18 @@ button {
 
 
 .benefits {
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .benefits-container {
     display: flex;
+    gap: 24px;
     /* margin: 0 auto; */
 
 }
 
 .benefits-list {
-    margin-right: 24px;
+    /* margin-right: 24px; */
     width: calc ((100% - 3 * 24px) / 4);
 
 }
@@ -340,14 +341,26 @@ button {
 
 .benefits-item {
 
-
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* SLATE */
     color: var(--slate-color);
+    min-width: 264px;
 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /**
   |============================
